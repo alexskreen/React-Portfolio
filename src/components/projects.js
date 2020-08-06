@@ -50,65 +50,52 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* React Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/cover",
-              }}
-            >
-              React Project #2
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              {/* <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button> */}
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          {/* React Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/cover",
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              {/* <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button> */}
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
         </div>
       );
+
+// Unity Projects
+
     } else if (this.state.activeTab === 1) {
       return (
         <div>
-          <h1>This is Unity</h1>
+          <div className="projects-grid">
+            {/* Unity Project 1 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background: 
+                    "url(https://connect-prd-cdn.unity.com/20190226/learn/images/8ddaad3f-9339-4a99-8992-87dde17eafac_Project_and_Tutorials_2D_Roguelike_1920x1080_Tutorial_1.jpg) center/cover",
+                }}
+              >
+                The Witch's Apprentice
+              </CardTitle>
+              <CardText>
+                This is an action adventure game that brings the user through
+                multiple levels where they must find hidden items and defeat
+                enemies to reach the witch!
+              </CardText>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    href="https://github.com/alexskreen/thewitchsapprentice"
+                    GitHub
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </Button>
+                {/* <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button> */}
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
+          );
         </div>
       );
     } else if (this.state.activeTab === 2) {
@@ -139,8 +126,13 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://github.com/alexskreen/camping"
-                  GitHub rel="noopener noreferrer" target="_blank">GitHub
+                <a
+                  href="https://github.com/alexskreen/camping"
+                  GitHub
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
                 </a>
               </Button>
               {/* <Button colored>CodePen</Button>
@@ -158,18 +150,28 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/cover",
+                  "url(https://github.com/alexskreen/WOD-Scraper/blob/master/images/WOD-Scraper-Full.png?raw=true) center/cover",
               }}
             >
-              React Project #2
+              WOD Scraper
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
+              This application uses Express.js, Node.js, Puppeteer, and
+              BodyParser to scrape the internet's most popular gyms for their
+              daily workouts or "WODs". It allows the user to select multiple
+              gyms at a time and see all their workouts side-by-side.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/alexskreen/WOD-Scraper"
+                  GitHub
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
               {/* <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button> */}
             </CardActions>
@@ -206,19 +208,21 @@ class Projects extends Component {
           </Card>
         </div>
       );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is C#</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 4) {
-      return (
-        <div>
-          <h1>This is MySQL</h1>
-        </div>
-      );
-    }
+    } 
+    // else if (this.state.activeTab === 3) {
+    //   return (
+    //     <div>
+    //       <h1>This is C#</h1>
+    //     </div>
+    //   );
+    // } 
+    // else if (this.state.activeTab === 4) {
+    //   return (
+    //     <div>
+    //       <h1>This is MySQL</h1>
+    //     </div>
+    //   );
+    // }
   }
 
   render() {
@@ -232,8 +236,8 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>Unity</Tab>
           <Tab>JavaScript</Tab>
-          <Tab>C#</Tab>
-          <Tab>MySQL</Tab>
+          {/* <Tab>C#</Tab>
+          <Tab>MySQL</Tab> */}
         </Tabs>
 
         <Grid>
