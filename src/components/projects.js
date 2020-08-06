@@ -12,7 +12,6 @@ import {
   IconButton,
   CardText,
 } from "react-mdl";
-import CampingSplash from "./../img/camping-splashscreen.png";
 
 class Projects extends Component {
   constructor(props) {
@@ -128,17 +127,22 @@ class Projects extends Component {
               Camping Trip Planner
             </CardTitle>
             <CardText>
-              This application allows a user to organize a camping trip with their friends. The
-              webpage allows a user to input their name, start and end dates for
-              the trip, and a destination (Town, State) and, once submitted,
-              displays a trip planning interface. Users can add other campers to
-              the attendee list, add items to-be-packed to a collective packing
-              list, and assign to-be-packed items to individual attendees by
-              dragging the items from the collective packing list and dropping
-              the items into an individual's packing list area.
+              This application allows a user to organize a camping trip with
+              their friends. The webpage allows a user to input their name,
+              start and end dates for the trip, and a destination (Town, State)
+              and, once submitted, displays a trip planning interface. Users can
+              add other campers to the attendee list, add items to-be-packed to
+              a collective packing list, and assign to-be-packed items to
+              individual attendees by dragging the items from the collective
+              packing list and dropping the items into an individual's packing
+              list area.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored>
+                <a href="https://github.com/alexskreen/camping"
+                  GitHub rel="noopener noreferrer" target="_blank">GitHub
+                </a>
+              </Button>
               {/* <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button> */}
             </CardActions>
