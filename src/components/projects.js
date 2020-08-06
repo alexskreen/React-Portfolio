@@ -30,10 +30,10 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center/cover",
+                  "url(https://github.com/alexskreen/react-portfolio/blob/master/src/img/live-feed.png?raw=true) center/cover",
               }}
             >
-              React Project #1
+              Blazers
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -41,7 +41,16 @@ class Projects extends Component {
               ever since the 1500s, when an unknown printer took a galley
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/alexskreen/Blazers"
+                  GitHub
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </Button>
               {/* <Button colored>CodePen</Button>
               <Button colored>LiveDemo</Button> */}
             </CardActions>
@@ -49,7 +58,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
         </div>
       );
 
