@@ -19,6 +19,8 @@
 .projects-grid {
   display: flex;
   justify-content: space-between;
+  height: auto;
+  max-height: 250px;
 }
 
 /* contact page css */
