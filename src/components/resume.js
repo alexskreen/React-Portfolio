@@ -34,11 +34,11 @@ class Resume extends Component {
                 seeking a software development position.
               </p>
               <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-              <div className="about-address">
+              {/* <div className="about-address">
                 <h5>Address:</h5>
                 <p>21901 SW Blackfoot Drive</p>
                 <p>Tualatin, Or 97062</p>
-              </div>
+              </div> */}
               <h5>phone:</h5>
               <p>(503) 548-7289</p>
               <h5>Email:</h5>

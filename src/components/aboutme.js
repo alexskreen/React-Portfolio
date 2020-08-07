@@ -19,16 +19,14 @@ class About extends Component {
             <h4 style={{ color: "grey" }}>Programmer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+              I am 31 years old. I was born and raised in Portland, Oregon. I graduated from Oregon State University with a bachelors in Marketing. I started my career in sales while in the pursuit of a marketing/advertising job. After a while of playing around on online coding classes I decided to make the jump into the world of tech! This lead me to enrolling in Epicodus to study web development, and here we are today. I recently completed an internship with Theorem Agency, and I'm entering the job market seeking a software development position.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            {/* <div className="about-address">
             <h5>Address:</h5>
-            <p>21901 SW Blackfoot Drive</p>
-            <p>Tualatin, Or 97062</p>
+              <p>21901 SW Blackfoot Drive</p>
+              <p>Tualatin, Or 97062</p>
+            </div> */}
             <h5>phone:</h5>
             <p>(503) 548-7289</p>
             <h5>Email</h5>
