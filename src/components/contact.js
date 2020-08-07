@@ -10,12 +10,15 @@ class Contact extends Component {
             <h2>Alex Skreen</h2>
             {/* This is a default avatar. Change this */}
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src="https://github.com/alexskreen/react-portfolio/blob/master/src/img/Profile%20Picture.png?raw=true"
               alt="avatar"
+              className="about-img"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              I am currently seeking a position as a full-stack developer. Please feel free to contact me if after reviewing my portfolio you think I would be a good fit at your company. I look forward to speaking with you.
+              I am currently seeking a position as a full-stack developer.
+              Please feel free to contact me if you have any questions. I am happy to provide any additional information you might need. I look forward to
+              speaking with you.
             </p>
           </Cell>
           <Cell col={6}>
