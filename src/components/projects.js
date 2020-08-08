@@ -36,9 +36,7 @@ class Projects extends Component {
               Blazers
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley
+              Using the NBA API my partner and I built out a website for the Blazers pre, live, and post game sites. This will display a key players, stats, shot map, and even tickets for upcoming games.
             </CardText>
             <CardActions border>
               <Button colored>
@@ -106,7 +104,12 @@ class Projects extends Component {
           );
         </div>
       );
-    } else if (this.state.activeTab === 2) {
+    } 
+    
+    // JS Projects
+    // Use the react MDL grid system to create another group of cells if you exceed 3 projects. The margins are funky and need work
+    
+    else if (this.state.activeTab === 2) {
       return (
         <div className="projects-grid">
           {/* JS Project 1 */}
