@@ -67,13 +67,13 @@ class LandingPage extends Component {
                 </a> */}
 
                 {/* Twitter */}
-                <a
+                {/* <a
                   href="https://twitter.com/AlexSkreen"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                </a>
+                </a> */}
 
               </div>
             </div>

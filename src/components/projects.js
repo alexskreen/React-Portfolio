@@ -24,7 +24,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* React Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -66,12 +66,16 @@ class Projects extends Component {
         <div>
           <div className="projects-grid">
             {/* Unity Project 1 */}
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card
+              className="project"
+              shadow={5}
+              style={{ minWidth: "450", margin: "auto" }}
+            >
               <CardTitle
                 style={{
                   color: "#fff",
                   height: "176px",
-                  background: 
+                  background:
                     "url(https://connect-prd-cdn.unity.com/20190226/learn/images/8ddaad3f-9339-4a99-8992-87dde17eafac_Project_and_Tutorials_2D_Roguelike_1920x1080_Tutorial_1.jpg) center/cover",
                 }}
               >
@@ -113,7 +117,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* JS Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
@@ -155,7 +159,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card className="project" shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",

@@ -152,3 +152,31 @@
   font-size: 5em;
   padding: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.banner-text h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+.projects-grid {
+  display: inline-block;
+  justify-content: space-between;
+  height: auto;
+  max-height: 350px;
+  margin: 2em;
+}
+
+.project{
+  margin: 3em;
+}
+}
