@@ -57,11 +57,12 @@
 
 .contact-grid h2 {
   /* this font sucks. please change */
-  font-family: 'Anton', sans-serif;
+  /* font-family: 'Anton', sans-serif; */
+  font-size: 35px;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  /* font-family: 'Oxygen', sans-serif; */
   font-weight: bold;
 }
 

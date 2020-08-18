@@ -28,7 +28,7 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "22px" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     503-548-7289
@@ -37,7 +37,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "20px", fontFamily: "Anton" }}
+                    style={{ fontSize: "18px" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
                     skreenalex@gmail.com
@@ -46,7 +46,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "22px" }}
                   >
                     <i className="fa fa-github-square" aria-hidden="true" />
                     alexskreen
@@ -55,7 +55,7 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{ fontSize: "22px" }}
                   >
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                     alexskreen
