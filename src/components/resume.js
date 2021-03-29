@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="https://github.com/alexskreen/react-portfolio/blob/master/src/img/Profile%20Picture.png?raw=true"
+                src={require('../img/Profile Picture.png')}
                 className="about-img"
                 alt="avatar"
                 style={{ height: "200px" }}
@@ -23,15 +23,15 @@ class Resume extends Component {
               <h4 style={{ color: "grey" }}>Full Stack Programmer</h4>
               <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
               <p>
-                I am 31 years old. I was born and raised in Portland, Oregon. I
+                I was born and raised in Portland, Oregon. I
                 graduated from Oregon State University with a bachelors in
-                Marketing. I started my career in sales while in the pursuit of
+                Marketing. My career started in sales while in the pursuit of
                 a marketing/advertising job. After a while of playing around on
                 online coding classes I decided to make the jump into the world
                 of tech! This lead me to enrolling in Epicodus to study web
                 development, and here we are today. I recently completed an
-                internship with Theorem Agency, and I'm entering the job market
-                seeking a software development position.
+                internship with Theorem Agency, and I'm currently working as a full stack developer at GarageGymReviews.com.
+                I'm seeking a software development position.
               </p>
               <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
               {/* <div className="about-address">
