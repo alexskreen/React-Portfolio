@@ -50,7 +50,21 @@ class Resume extends Component {
             <h3>Experience</h3>
 
             <Experience
-              startYear={2010}
+              startMonth={"October"}
+              startYear={2020}
+              endMonth={"Current"}
+              // endYear={2020}
+              companyName="Garage Gym Reviews"
+              companyPosition="Full Stack Developer"
+              companyDescription1="Created streamlined user experience"
+              companyDescription2="Designed new gym builder tool"
+              companyDescription3="Developed social media platform for users to interact"
+            />
+
+            <Experience
+              startMonth={"June"}
+              startYear={2020}
+              endMonth={"August"}
               endYear={2020}
               companyName="Theorem Agency"
               companyPosition="Software Engineer Intern"
@@ -60,7 +74,9 @@ class Resume extends Component {
             />
 
             <Experience
+              startMonth={"April"}
               startYear={2019}
+              endMonth={"January"}
               endYear={2020}
               companyName="Deltek"
               companyPosition="Account Executive"
@@ -70,7 +86,9 @@ class Resume extends Component {
             />
 
             <Experience
+              startMonth={"September"}
               startYear={2014}
+              endMonth={"February"}
               endYear={2019}
               companyName="ShopKeep"
               companyPosition="Senior Account Executive"
@@ -80,7 +98,9 @@ class Resume extends Component {
             />
 
             <Experience
+              startMonth={"June"}
               startYear={2013}
+              endMonth={"August"}
               endYear={2014}
               companyName="Enterprise Rent-A-Car"
               companyPosition="Assistant Manager"

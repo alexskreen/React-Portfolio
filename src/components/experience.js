@@ -7,7 +7,7 @@ class Experience extends Component {
       <Grid>
         <Cell col={4}>
           <p>
-            {this.props.startYear} - {this.props.endYear}
+            {this.props.startMonth} {" "} {this.props.startYear} - {this.props.endMonth} {" "} {this.props.endYear}
           </p>
         </Cell>
         <Cell col={8}>
