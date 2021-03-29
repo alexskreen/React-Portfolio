@@ -10,7 +10,7 @@ class Contact extends Component {
             <h2>Alex Skreen</h2>
             {/* This is a default avatar. Change this */}
             <img
-              src="https://github.com/alexskreen/react-portfolio/blob/master/src/img/Profile%20Picture.png?raw=true"
+              src={require('../img/Profile Picture.png')}
               alt="avatar"
               className="about-img"
               style={{ height: "250px" }}

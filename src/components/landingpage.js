@@ -8,7 +8,7 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://github.com/alexskreen/react-portfolio/blob/master/src/img/33101815_10211382429863767_877285119323275264_n.jpg?raw=true"
+              src={require('../img/33101815_10211382429863767_877285119323275264_n.jpg')}
               className="about-img"
               alt="avatar"
             />
@@ -18,7 +18,7 @@ class LandingPage extends Component {
 
               <hr />
 
-              <p>HTML/CSS | JavaScript | React | NodeJS | C#</p>
+              <p>HTML | CSS | JavaScript | React | NodeJS | C# | PHP</p>
 
               <div className="social-links">
                 {/* LinkedIn */}
@@ -55,9 +55,9 @@ class LandingPage extends Component {
                   target="_blank"
                 >
                   <i className="fa fa-instagram" aria-hidden="true" />
-                </a> */}
+                </a>
 
-                {/* Facebook
+                Facebook
                 <a
                   href="https://www.facebook.com/alex.skreen"
                   rel="noopener noreferrer"

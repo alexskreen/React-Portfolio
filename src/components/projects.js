@@ -13,6 +13,12 @@ import {
   CardText,
 } from "react-mdl";
 
+import BlazersImg from "../img/live-feed.png";
+import WitchImg from "../img/The-Witches-Apprentice.jpg";
+import CampingImg from "../img/camping-splashscreen.png";
+import WODImg from "../img/WOD-Scraper-Full.png";
+
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -29,8 +35,10 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://github.com/alexskreen/react-portfolio/blob/master/src/img/live-feed.png?raw=true) center/cover",
+                backgroundImage: "url(" + BlazersImg +")",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
               }}
             >
               Blazers
@@ -75,8 +83,10 @@ class Projects extends Component {
                 style={{
                   color: "#fff",
                   height: "176px",
-                  background:
-                    "url(https://connect-prd-cdn.unity.com/20190226/learn/images/8ddaad3f-9339-4a99-8992-87dde17eafac_Project_and_Tutorials_2D_Roguelike_1920x1080_Tutorial_1.jpg) center/cover",
+                backgroundImage: "url(" + WitchImg +")",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
                 }}
               >
                 The Witch's Apprentice
@@ -122,8 +132,10 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://github.com/alexskreen/camping/raw/master/src/assets/images/splashscreen.png) center/cover",
+                backgroundImage: "url(" + CampingImg +")",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
               }}
             >
               Camping Trip Planner
@@ -164,8 +176,10 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://github.com/alexskreen/WOD-Scraper/blob/master/images/WOD-Scraper-Full.png?raw=true) center/cover",
+                backgroundImage: "url(" + WODImg +")",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
               }}
             >
               WOD Scraper

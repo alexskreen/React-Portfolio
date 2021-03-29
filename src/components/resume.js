@@ -30,8 +30,9 @@ class Resume extends Component {
                 online coding classes I decided to make the jump into the world
                 of tech! This lead me to enrolling in Epicodus to study web
                 development, and here we are today. I recently completed an
-                internship with Theorem Agency, and I'm currently working as a full stack developer at GarageGymReviews.com.
-                I'm seeking a software development position.
+                internship with Theorem Agency, and I'm currently working as a 
+                full stack developer at GarageGymReviews.com. I'm seeking a 
+                software development position.
               </p>
               <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
               {/* <div className="about-address">
